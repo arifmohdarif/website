@@ -1,4 +1,3 @@
-FROM tomcat:latest
+FROM hshar/webapp
 ADD . /var/www/html
-ENTRYPOINT apachectl -D FOREGROUND -D FOREGROUND
-ENV name website
+
